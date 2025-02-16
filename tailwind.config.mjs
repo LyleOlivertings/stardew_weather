@@ -1,17 +1,18 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'stardew-brown': '#5a4a32',
+        'stardew-cream': '#f8f4e8',
+        'stardew-green': '#8ba58d',
+        'stardew-dark-green': '#7a947c',
+        'stardew-border': '#7a6a52',
       },
     },
   },
   plugins: [],
-};
+}
