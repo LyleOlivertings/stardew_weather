@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { SunIcon, CloudIcon, UmbrellaIcon, SnowflakeIcon } from '@heroicons/react/24/solid';
